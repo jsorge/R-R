@@ -18,6 +18,8 @@
 		933AE5CC1856E5F800C2F56E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5AB1856E5F800C2F56E /* Cocoa.framework */; };
 		933AE5D41856E5F800C2F56E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5D21856E5F800C2F56E /* InfoPlist.strings */; };
 		933AE5D61856E5F800C2F56E /* R_RTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5D51856E5F800C2F56E /* R_RTests.m */; };
+		933AE5E11856E69500C2F56E /* RRTimeTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5E01856E69500C2F56E /* RRTimeTaken.m */; };
+		933AE5E51856E80500C2F56E /* RRUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5E41856E80500C2F56E /* RRUserPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		933AE5D11856E5F800C2F56E /* R&RTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&RTests-Info.plist"; sourceTree = "<group>"; };
 		933AE5D31856E5F800C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		933AE5D51856E5F800C2F56E /* R_RTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_RTests.m; sourceTree = "<group>"; };
+		933AE5DF1856E69500C2F56E /* RRTimeTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRTimeTaken.h; path = Shared/Model/RRTimeTaken.h; sourceTree = "<group>"; };
+		933AE5E01856E69500C2F56E /* RRTimeTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRTimeTaken.m; path = Shared/Model/RRTimeTaken.m; sourceTree = "<group>"; };
+		933AE5E31856E80500C2F56E /* RRUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRUserPreferences.h; path = Shared/Model/RRUserPreferences.h; sourceTree = "<group>"; };
+		933AE5E41856E80500C2F56E /* RRUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRUserPreferences.m; path = Shared/Model/RRUserPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		933AE59F1856E5F800C2F56E = {
 			isa = PBXGroup;
 			children = (
+				933AE5E21856E69A00C2F56E /* Model */,
 				933AE5B11856E5F800C2F56E /* R&R */,
 				933AE5CF1856E5F800C2F56E /* R&RTests */,
 				933AE5AA1856E5F800C2F56E /* Frameworks */,
@@ -152,6 +159,17 @@
 				933AE5D21856E5F800C2F56E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933AE5E21856E69A00C2F56E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				933AE5DF1856E69500C2F56E /* RRTimeTaken.h */,
+				933AE5E01856E69500C2F56E /* RRTimeTaken.m */,
+				933AE5E31856E80500C2F56E /* RRUserPreferences.h */,
+				933AE5E41856E80500C2F56E /* RRUserPreferences.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				933AE5B81856E5F800C2F56E /* main.m in Sources */,
+				933AE5E11856E69500C2F56E /* RRTimeTaken.m in Sources */,
 				933AE5BF1856E5F800C2F56E /* JMSAppDelegate.m in Sources */,
+				933AE5E51856E80500C2F56E /* RRUserPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
