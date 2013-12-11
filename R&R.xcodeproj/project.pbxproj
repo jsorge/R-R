@@ -7,181 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		933AE5AC1856E5F800C2F56E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5AB1856E5F800C2F56E /* Cocoa.framework */; };
-		933AE5B61856E5F800C2F56E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5B41856E5F800C2F56E /* InfoPlist.strings */; };
-		933AE5B81856E5F800C2F56E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5B71856E5F800C2F56E /* main.m */; };
-		933AE5BC1856E5F800C2F56E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5BA1856E5F800C2F56E /* Credits.rtf */; };
-		933AE5BF1856E5F800C2F56E /* JMSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5BE1856E5F800C2F56E /* JMSAppDelegate.m */; };
-		933AE5C21856E5F800C2F56E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5C01856E5F800C2F56E /* MainMenu.xib */; };
-		933AE5C41856E5F800C2F56E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5C31856E5F800C2F56E /* Images.xcassets */; };
-		933AE5CB1856E5F800C2F56E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5CA1856E5F800C2F56E /* XCTest.framework */; };
-		933AE5CC1856E5F800C2F56E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5AB1856E5F800C2F56E /* Cocoa.framework */; };
-		933AE5D41856E5F800C2F56E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5D21856E5F800C2F56E /* InfoPlist.strings */; };
-		933AE5D61856E5F800C2F56E /* R_RTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5D51856E5F800C2F56E /* R_RTests.m */; };
-		933AE5E11856E69500C2F56E /* RRTimeTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5E01856E69500C2F56E /* RRTimeTaken.m */; };
-		933AE5E51856E80500C2F56E /* RRUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE5E41856E80500C2F56E /* RRUserPreferences.m */; };
+		933AE5F6185832A000C2F56E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5F5185832A000C2F56E /* Cocoa.framework */; };
+		933AE600185832A000C2F56E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933AE5FE185832A000C2F56E /* InfoPlist.strings */; };
+		933AE602185832A000C2F56E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE601185832A000C2F56E /* main.m */; };
+		933AE606185832A000C2F56E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 933AE604185832A000C2F56E /* Credits.rtf */; };
+		933AE609185832A000C2F56E /* RRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE608185832A000C2F56E /* RRDocument.m */; };
+		933AE60C185832A000C2F56E /* RRDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933AE60A185832A000C2F56E /* RRDocument.xib */; };
+		933AE60F185832A000C2F56E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933AE60D185832A000C2F56E /* MainMenu.xib */; };
+		933AE611185832A000C2F56E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933AE610185832A000C2F56E /* Images.xcassets */; };
+		933AE618185832A000C2F56E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE617185832A000C2F56E /* XCTest.framework */; };
+		933AE619185832A000C2F56E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933AE5F5185832A000C2F56E /* Cocoa.framework */; };
+		933AE621185832A000C2F56E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933AE61F185832A000C2F56E /* InfoPlist.strings */; };
+		933AE623185832A000C2F56E /* R_RTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE622185832A000C2F56E /* R_RTests.m */; };
+		933AE633185832C900C2F56E /* RRTimeTaken.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE62E185832C900C2F56E /* RRTimeTaken.m */; };
+		933AE634185832C900C2F56E /* RRTimeTakenLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE630185832C900C2F56E /* RRTimeTakenLoader.m */; };
+		933AE635185832C900C2F56E /* RRUserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 933AE632185832C900C2F56E /* RRUserPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		933AE5CD1856E5F800C2F56E /* PBXContainerItemProxy */ = {
+		933AE61A185832A000C2F56E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 933AE5A01856E5F800C2F56E /* Project object */;
+			containerPortal = 933AE5EA185832A000C2F56E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 933AE5A71856E5F800C2F56E;
+			remoteGlobalIDString = 933AE5F1185832A000C2F56E;
 			remoteInfo = "R&R";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		933AE5A81856E5F800C2F56E /* R&R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R&R.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		933AE5AB1856E5F800C2F56E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		933AE5AE1856E5F800C2F56E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		933AE5AF1856E5F800C2F56E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		933AE5B01856E5F800C2F56E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		933AE5B31856E5F800C2F56E /* R&R-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&R-Info.plist"; sourceTree = "<group>"; };
-		933AE5B51856E5F800C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		933AE5B71856E5F800C2F56E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		933AE5B91856E5F800C2F56E /* R&R-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "R&R-Prefix.pch"; sourceTree = "<group>"; };
-		933AE5BB1856E5F800C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		933AE5BD1856E5F800C2F56E /* JMSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMSAppDelegate.h; sourceTree = "<group>"; };
-		933AE5BE1856E5F800C2F56E /* JMSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSAppDelegate.m; sourceTree = "<group>"; };
-		933AE5C11856E5F800C2F56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		933AE5C31856E5F800C2F56E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		933AE5C91856E5F800C2F56E /* R&RTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R&RTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		933AE5CA1856E5F800C2F56E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		933AE5D11856E5F800C2F56E /* R&RTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&RTests-Info.plist"; sourceTree = "<group>"; };
-		933AE5D31856E5F800C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		933AE5D51856E5F800C2F56E /* R_RTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_RTests.m; sourceTree = "<group>"; };
-		933AE5DF1856E69500C2F56E /* RRTimeTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRTimeTaken.h; path = Shared/Model/RRTimeTaken.h; sourceTree = "<group>"; };
-		933AE5E01856E69500C2F56E /* RRTimeTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRTimeTaken.m; path = Shared/Model/RRTimeTaken.m; sourceTree = "<group>"; };
-		933AE5E31856E80500C2F56E /* RRUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRUserPreferences.h; path = Shared/Model/RRUserPreferences.h; sourceTree = "<group>"; };
-		933AE5E41856E80500C2F56E /* RRUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRUserPreferences.m; path = Shared/Model/RRUserPreferences.m; sourceTree = "<group>"; };
+		933AE5F2185832A000C2F56E /* R&R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "R&R.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933AE5F5185832A000C2F56E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		933AE5F8185832A000C2F56E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		933AE5F9185832A000C2F56E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		933AE5FA185832A000C2F56E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		933AE5FD185832A000C2F56E /* R&R-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&R-Info.plist"; sourceTree = "<group>"; };
+		933AE5FF185832A000C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		933AE601185832A000C2F56E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		933AE603185832A000C2F56E /* R&R-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "R&R-Prefix.pch"; sourceTree = "<group>"; };
+		933AE605185832A000C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		933AE607185832A000C2F56E /* RRDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRDocument.h; sourceTree = "<group>"; };
+		933AE608185832A000C2F56E /* RRDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRDocument.m; sourceTree = "<group>"; };
+		933AE60B185832A000C2F56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RRDocument.xib; sourceTree = "<group>"; };
+		933AE60E185832A000C2F56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		933AE610185832A000C2F56E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		933AE616185832A000C2F56E /* R&RTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R&RTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933AE617185832A000C2F56E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		933AE61E185832A000C2F56E /* R&RTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R&RTests-Info.plist"; sourceTree = "<group>"; };
+		933AE620185832A000C2F56E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		933AE622185832A000C2F56E /* R_RTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_RTests.m; sourceTree = "<group>"; };
+		933AE62D185832C900C2F56E /* RRTimeTaken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTimeTaken.h; sourceTree = "<group>"; };
+		933AE62E185832C900C2F56E /* RRTimeTaken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTimeTaken.m; sourceTree = "<group>"; };
+		933AE62F185832C900C2F56E /* RRTimeTakenLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRTimeTakenLoader.h; sourceTree = "<group>"; };
+		933AE630185832C900C2F56E /* RRTimeTakenLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRTimeTakenLoader.m; sourceTree = "<group>"; };
+		933AE631185832C900C2F56E /* RRUserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUserPreferences.h; sourceTree = "<group>"; };
+		933AE632185832C900C2F56E /* RRUserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRUserPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		933AE5A51856E5F800C2F56E /* Frameworks */ = {
+		933AE5EF185832A000C2F56E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5AC1856E5F800C2F56E /* Cocoa.framework in Frameworks */,
+				933AE5F6185832A000C2F56E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		933AE5C61856E5F800C2F56E /* Frameworks */ = {
+		933AE613185832A000C2F56E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5CC1856E5F800C2F56E /* Cocoa.framework in Frameworks */,
-				933AE5CB1856E5F800C2F56E /* XCTest.framework in Frameworks */,
+				933AE619185832A000C2F56E /* Cocoa.framework in Frameworks */,
+				933AE618185832A000C2F56E /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		933AE59F1856E5F800C2F56E = {
+		933AE5E91858329F00C2F56E = {
 			isa = PBXGroup;
 			children = (
-				933AE5E21856E69A00C2F56E /* Model */,
-				933AE5B11856E5F800C2F56E /* R&R */,
-				933AE5CF1856E5F800C2F56E /* R&RTests */,
-				933AE5AA1856E5F800C2F56E /* Frameworks */,
-				933AE5A91856E5F800C2F56E /* Products */,
+				933AE5FB185832A000C2F56E /* R&R */,
+				933AE61C185832A000C2F56E /* R&RTests */,
+				933AE5F4185832A000C2F56E /* Frameworks */,
+				933AE5F3185832A000C2F56E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		933AE5A91856E5F800C2F56E /* Products */ = {
+		933AE5F3185832A000C2F56E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5A81856E5F800C2F56E /* R&R.app */,
-				933AE5C91856E5F800C2F56E /* R&RTests.xctest */,
+				933AE5F2185832A000C2F56E /* R&R.app */,
+				933AE616185832A000C2F56E /* R&RTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		933AE5AA1856E5F800C2F56E /* Frameworks */ = {
+		933AE5F4185832A000C2F56E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5AB1856E5F800C2F56E /* Cocoa.framework */,
-				933AE5CA1856E5F800C2F56E /* XCTest.framework */,
-				933AE5AD1856E5F800C2F56E /* Other Frameworks */,
+				933AE5F5185832A000C2F56E /* Cocoa.framework */,
+				933AE617185832A000C2F56E /* XCTest.framework */,
+				933AE5F7185832A000C2F56E /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		933AE5AD1856E5F800C2F56E /* Other Frameworks */ = {
+		933AE5F7185832A000C2F56E /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5AE1856E5F800C2F56E /* AppKit.framework */,
-				933AE5AF1856E5F800C2F56E /* CoreData.framework */,
-				933AE5B01856E5F800C2F56E /* Foundation.framework */,
+				933AE5F8185832A000C2F56E /* AppKit.framework */,
+				933AE5F9185832A000C2F56E /* CoreData.framework */,
+				933AE5FA185832A000C2F56E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		933AE5B11856E5F800C2F56E /* R&R */ = {
+		933AE5FB185832A000C2F56E /* R&R */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5BD1856E5F800C2F56E /* JMSAppDelegate.h */,
-				933AE5BE1856E5F800C2F56E /* JMSAppDelegate.m */,
-				933AE5C01856E5F800C2F56E /* MainMenu.xib */,
-				933AE5C31856E5F800C2F56E /* Images.xcassets */,
-				933AE5B21856E5F800C2F56E /* Supporting Files */,
+				933AE62C185832C900C2F56E /* Model */,
+				933AE607185832A000C2F56E /* RRDocument.h */,
+				933AE608185832A000C2F56E /* RRDocument.m */,
+				933AE60A185832A000C2F56E /* RRDocument.xib */,
+				933AE60D185832A000C2F56E /* MainMenu.xib */,
+				933AE610185832A000C2F56E /* Images.xcassets */,
+				933AE5FC185832A000C2F56E /* Supporting Files */,
 			);
 			path = "R&R";
 			sourceTree = "<group>";
 		};
-		933AE5B21856E5F800C2F56E /* Supporting Files */ = {
+		933AE5FC185832A000C2F56E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5B31856E5F800C2F56E /* R&R-Info.plist */,
-				933AE5B41856E5F800C2F56E /* InfoPlist.strings */,
-				933AE5B71856E5F800C2F56E /* main.m */,
-				933AE5B91856E5F800C2F56E /* R&R-Prefix.pch */,
-				933AE5BA1856E5F800C2F56E /* Credits.rtf */,
+				933AE5FD185832A000C2F56E /* R&R-Info.plist */,
+				933AE5FE185832A000C2F56E /* InfoPlist.strings */,
+				933AE601185832A000C2F56E /* main.m */,
+				933AE603185832A000C2F56E /* R&R-Prefix.pch */,
+				933AE604185832A000C2F56E /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		933AE5CF1856E5F800C2F56E /* R&RTests */ = {
+		933AE61C185832A000C2F56E /* R&RTests */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5D51856E5F800C2F56E /* R_RTests.m */,
-				933AE5D01856E5F800C2F56E /* Supporting Files */,
+				933AE622185832A000C2F56E /* R_RTests.m */,
+				933AE61D185832A000C2F56E /* Supporting Files */,
 			);
 			path = "R&RTests";
 			sourceTree = "<group>";
 		};
-		933AE5D01856E5F800C2F56E /* Supporting Files */ = {
+		933AE61D185832A000C2F56E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5D11856E5F800C2F56E /* R&RTests-Info.plist */,
-				933AE5D21856E5F800C2F56E /* InfoPlist.strings */,
+				933AE61E185832A000C2F56E /* R&RTests-Info.plist */,
+				933AE61F185832A000C2F56E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		933AE5E21856E69A00C2F56E /* Model */ = {
+		933AE62C185832C900C2F56E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				933AE5DF1856E69500C2F56E /* RRTimeTaken.h */,
-				933AE5E01856E69500C2F56E /* RRTimeTaken.m */,
-				933AE5E31856E80500C2F56E /* RRUserPreferences.h */,
-				933AE5E41856E80500C2F56E /* RRUserPreferences.m */,
+				933AE62D185832C900C2F56E /* RRTimeTaken.h */,
+				933AE62E185832C900C2F56E /* RRTimeTaken.m */,
+				933AE62F185832C900C2F56E /* RRTimeTakenLoader.h */,
+				933AE630185832C900C2F56E /* RRTimeTakenLoader.m */,
+				933AE631185832C900C2F56E /* RRUserPreferences.h */,
+				933AE632185832C900C2F56E /* RRUserPreferences.m */,
 			);
 			name = Model;
-			sourceTree = "<group>";
+			path = Shared/Model;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		933AE5A71856E5F800C2F56E /* R&R */ = {
+		933AE5F1185832A000C2F56E /* R&R */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 933AE5D91856E5F800C2F56E /* Build configuration list for PBXNativeTarget "R&R" */;
+			buildConfigurationList = 933AE626185832A000C2F56E /* Build configuration list for PBXNativeTarget "R&R" */;
 			buildPhases = (
-				933AE5A41856E5F800C2F56E /* Sources */,
-				933AE5A51856E5F800C2F56E /* Frameworks */,
-				933AE5A61856E5F800C2F56E /* Resources */,
+				933AE5EE185832A000C2F56E /* Sources */,
+				933AE5EF185832A000C2F56E /* Frameworks */,
+				933AE5F0185832A000C2F56E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -189,43 +198,43 @@
 			);
 			name = "R&R";
 			productName = "R&R";
-			productReference = 933AE5A81856E5F800C2F56E /* R&R.app */;
+			productReference = 933AE5F2185832A000C2F56E /* R&R.app */;
 			productType = "com.apple.product-type.application";
 		};
-		933AE5C81856E5F800C2F56E /* R&RTests */ = {
+		933AE615185832A000C2F56E /* R&RTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 933AE5DC1856E5F800C2F56E /* Build configuration list for PBXNativeTarget "R&RTests" */;
+			buildConfigurationList = 933AE629185832A000C2F56E /* Build configuration list for PBXNativeTarget "R&RTests" */;
 			buildPhases = (
-				933AE5C51856E5F800C2F56E /* Sources */,
-				933AE5C61856E5F800C2F56E /* Frameworks */,
-				933AE5C71856E5F800C2F56E /* Resources */,
+				933AE612185832A000C2F56E /* Sources */,
+				933AE613185832A000C2F56E /* Frameworks */,
+				933AE614185832A000C2F56E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				933AE5CE1856E5F800C2F56E /* PBXTargetDependency */,
+				933AE61B185832A000C2F56E /* PBXTargetDependency */,
 			);
 			name = "R&RTests";
 			productName = "R&RTests";
-			productReference = 933AE5C91856E5F800C2F56E /* R&RTests.xctest */;
+			productReference = 933AE616185832A000C2F56E /* R&RTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		933AE5A01856E5F800C2F56E /* Project object */ = {
+		933AE5EA185832A000C2F56E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = JMS;
+				CLASSPREFIX = RR;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = jsorge;
 				TargetAttributes = {
-					933AE5C81856E5F800C2F56E = {
-						TestTargetID = 933AE5A71856E5F800C2F56E;
+					933AE615185832A000C2F56E = {
+						TestTargetID = 933AE5F1185832A000C2F56E;
 					};
 				};
 			};
-			buildConfigurationList = 933AE5A31856E5F800C2F56E /* Build configuration list for PBXProject "R&R" */;
+			buildConfigurationList = 933AE5ED185832A000C2F56E /* Build configuration list for PBXProject "R&R" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -233,98 +242,108 @@
 				en,
 				Base,
 			);
-			mainGroup = 933AE59F1856E5F800C2F56E;
-			productRefGroup = 933AE5A91856E5F800C2F56E /* Products */;
+			mainGroup = 933AE5E91858329F00C2F56E;
+			productRefGroup = 933AE5F3185832A000C2F56E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				933AE5A71856E5F800C2F56E /* R&R */,
-				933AE5C81856E5F800C2F56E /* R&RTests */,
+				933AE5F1185832A000C2F56E /* R&R */,
+				933AE615185832A000C2F56E /* R&RTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		933AE5A61856E5F800C2F56E /* Resources */ = {
+		933AE5F0185832A000C2F56E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5B61856E5F800C2F56E /* InfoPlist.strings in Resources */,
-				933AE5C41856E5F800C2F56E /* Images.xcassets in Resources */,
-				933AE5BC1856E5F800C2F56E /* Credits.rtf in Resources */,
-				933AE5C21856E5F800C2F56E /* MainMenu.xib in Resources */,
+				933AE60C185832A000C2F56E /* RRDocument.xib in Resources */,
+				933AE611185832A000C2F56E /* Images.xcassets in Resources */,
+				933AE600185832A000C2F56E /* InfoPlist.strings in Resources */,
+				933AE606185832A000C2F56E /* Credits.rtf in Resources */,
+				933AE60F185832A000C2F56E /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		933AE5C71856E5F800C2F56E /* Resources */ = {
+		933AE614185832A000C2F56E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5D41856E5F800C2F56E /* InfoPlist.strings in Resources */,
+				933AE621185832A000C2F56E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		933AE5A41856E5F800C2F56E /* Sources */ = {
+		933AE5EE185832A000C2F56E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5B81856E5F800C2F56E /* main.m in Sources */,
-				933AE5E11856E69500C2F56E /* RRTimeTaken.m in Sources */,
-				933AE5BF1856E5F800C2F56E /* JMSAppDelegate.m in Sources */,
-				933AE5E51856E80500C2F56E /* RRUserPreferences.m in Sources */,
+				933AE609185832A000C2F56E /* RRDocument.m in Sources */,
+				933AE633185832C900C2F56E /* RRTimeTaken.m in Sources */,
+				933AE602185832A000C2F56E /* main.m in Sources */,
+				933AE634185832C900C2F56E /* RRTimeTakenLoader.m in Sources */,
+				933AE635185832C900C2F56E /* RRUserPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		933AE5C51856E5F800C2F56E /* Sources */ = {
+		933AE612185832A000C2F56E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933AE5D61856E5F800C2F56E /* R_RTests.m in Sources */,
+				933AE623185832A000C2F56E /* R_RTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		933AE5CE1856E5F800C2F56E /* PBXTargetDependency */ = {
+		933AE61B185832A000C2F56E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 933AE5A71856E5F800C2F56E /* R&R */;
-			targetProxy = 933AE5CD1856E5F800C2F56E /* PBXContainerItemProxy */;
+			target = 933AE5F1185832A000C2F56E /* R&R */;
+			targetProxy = 933AE61A185832A000C2F56E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		933AE5B41856E5F800C2F56E /* InfoPlist.strings */ = {
+		933AE5FE185832A000C2F56E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				933AE5B51856E5F800C2F56E /* en */,
+				933AE5FF185832A000C2F56E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		933AE5BA1856E5F800C2F56E /* Credits.rtf */ = {
+		933AE604185832A000C2F56E /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				933AE5BB1856E5F800C2F56E /* en */,
+				933AE605185832A000C2F56E /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		933AE5C01856E5F800C2F56E /* MainMenu.xib */ = {
+		933AE60A185832A000C2F56E /* RRDocument.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				933AE5C11856E5F800C2F56E /* Base */,
+				933AE60B185832A000C2F56E /* Base */,
+			);
+			name = RRDocument.xib;
+			sourceTree = "<group>";
+		};
+		933AE60D185832A000C2F56E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933AE60E185832A000C2F56E /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		933AE5D21856E5F800C2F56E /* InfoPlist.strings */ = {
+		933AE61F185832A000C2F56E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				933AE5D31856E5F800C2F56E /* en */,
+				933AE620185832A000C2F56E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -332,7 +351,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		933AE5D71856E5F800C2F56E /* Debug */ = {
+		933AE624185832A000C2F56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		933AE5D81856E5F800C2F56E /* Release */ = {
+		933AE625185832A000C2F56E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,7 +419,7 @@
 			};
 			name = Release;
 		};
-		933AE5DA1856E5F800C2F56E /* Debug */ = {
+		933AE627185832A000C2F56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -413,7 +432,7 @@
 			};
 			name = Debug;
 		};
-		933AE5DB1856E5F800C2F56E /* Release */ = {
+		933AE628185832A000C2F56E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,7 +445,7 @@
 			};
 			name = Release;
 		};
-		933AE5DD1856E5F800C2F56E /* Debug */ = {
+		933AE62A185832A000C2F56E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/R&R.app/Contents/MacOS/R&R";
@@ -448,7 +467,7 @@
 			};
 			name = Debug;
 		};
-		933AE5DE1856E5F800C2F56E /* Release */ = {
+		933AE62B185832A000C2F56E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/R&R.app/Contents/MacOS/R&R";
@@ -469,32 +488,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		933AE5A31856E5F800C2F56E /* Build configuration list for PBXProject "R&R" */ = {
+		933AE5ED185832A000C2F56E /* Build configuration list for PBXProject "R&R" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				933AE5D71856E5F800C2F56E /* Debug */,
-				933AE5D81856E5F800C2F56E /* Release */,
+				933AE624185832A000C2F56E /* Debug */,
+				933AE625185832A000C2F56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		933AE5D91856E5F800C2F56E /* Build configuration list for PBXNativeTarget "R&R" */ = {
+		933AE626185832A000C2F56E /* Build configuration list for PBXNativeTarget "R&R" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				933AE5DA1856E5F800C2F56E /* Debug */,
-				933AE5DB1856E5F800C2F56E /* Release */,
+				933AE627185832A000C2F56E /* Debug */,
+				933AE628185832A000C2F56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		933AE5DC1856E5F800C2F56E /* Build configuration list for PBXNativeTarget "R&RTests" */ = {
+		933AE629185832A000C2F56E /* Build configuration list for PBXNativeTarget "R&RTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				933AE5DD1856E5F800C2F56E /* Debug */,
-				933AE5DE1856E5F800C2F56E /* Release */,
+				933AE62A185832A000C2F56E /* Debug */,
+				933AE62B185832A000C2F56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 933AE5A01856E5F800C2F56E /* Project object */;
+	rootObject = 933AE5EA185832A000C2F56E /* Project object */;
 }

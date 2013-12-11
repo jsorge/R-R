@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "933AE5A71856E5F800C2F56E"
+               BlueprintIdentifier = "933AE5F1185832A000C2F56E"
                BuildableName = "R&amp;R.app"
                BlueprintName = "R&amp;R"
                ReferencedContainer = "container:R&amp;R.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "933AE5C81856E5F800C2F56E"
+               BlueprintIdentifier = "933AE615185832A000C2F56E"
                BuildableName = "R&amp;RTests.xctest"
                BlueprintName = "R&amp;RTests"
                ReferencedContainer = "container:R&amp;R.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "933AE5A71856E5F800C2F56E"
+            BlueprintIdentifier = "933AE5F1185832A000C2F56E"
             BuildableName = "R&amp;R.app"
             BlueprintName = "R&amp;R"
             ReferencedContainer = "container:R&amp;R.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "933AE5A71856E5F800C2F56E"
+            BlueprintIdentifier = "933AE5F1185832A000C2F56E"
             BuildableName = "R&amp;R.app"
             BlueprintName = "R&amp;R"
             ReferencedContainer = "container:R&amp;R.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "933AE5A71856E5F800C2F56E"
+            BlueprintIdentifier = "933AE5F1185832A000C2F56E"
             BuildableName = "R&amp;R.app"
             BlueprintName = "R&amp;R"
             ReferencedContainer = "container:R&amp;R.xcodeproj">

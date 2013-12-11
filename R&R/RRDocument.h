@@ -1,5 +1,5 @@
 //
-//  main.m
+//  RRDocument.h
 //  R&R
 //
 //  Created by Jared Sorge on 12/10/13.
@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[])
-{
-    return NSApplicationMain(argc, argv);
-}
+@interface RRDocument : NSDocument
+
+@end
